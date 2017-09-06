@@ -42,8 +42,8 @@ Operating Systems
 
 Software
 
-- Windows Management Framework v4
-- Windows Management Framework v5
+- Windows Management Framework V4
+- Windows Management Framework V5
 
 
 ## Related Products
