@@ -1,0 +1,28 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.define "dsc-box1", primary: true do |box1|
+    box1.vm.box      = "windows-2016-x86_64-virtualbox-base"
+    box1.vm.hostname = 'dsc-box1'
+    config.vm.network "private_network", ip: "192.168.50.2"
+  end
+
+  config.vm.define "dsc-box2" do |box2|
+    box2.vm.box      = "windows-2016-x86_64-virtualbox-base"
+    box2.vm.hostname = 'dsc-box2'
+    config.vm.network "private_network", ip: "192.168.50.4"
+  end
+
+  config.vm.provider :virtualbox do |v, override|
+    v.gui = true
+    v.linked_clone = true if Vagrant::VERSION =~ /^1.8/
+    v.customize ["modifyvm", :id, "--cpus", "1"]
+    v.customize ["modifyvm", :id, "--memory", "1024"]
+    v.customize ["modifyvm", :id, "--vram", "256"]
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    v.customize ["modifyvm", :id, "--audio", "none"]
+    v.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+    v.customize ["modifyvm", :id, "--usb", "off"]
+  end
+end
