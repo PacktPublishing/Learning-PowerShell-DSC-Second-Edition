@@ -3,7 +3,7 @@
 This is the code repository for [Learning PowerShell DSC - Second Edition](https://www.packtpub.com/networking-and-servers/learning-powershell-dsc-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787287242), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 
 ## About the Book
-The main goal of this book is to teach you to configure, deploy, and manage your system using the new features of PowerShell v5/v6 DSC.
+The main goal of this book is to teach you to configure, deploy, and manage your system using the new features of PowerShell V5/V6 DSC.
 
 This book begins with the basics of PowerShell Desired State Configuration, covering its architecture and components. It familiarizes you with the set of Windows PowerShell language extensions and new Windows PowerShell commands that make up DSC. Then it helps you create DSC custom resources and work with DSC configurations with the help of practical examples. Finally, it describes how to deploy configuration data using PowerShell DSC. Throughout this book, we will be focusing on concepts such as building configurations with parameters, the local configuration manager, and testing and restoring configurations using PowerShell DSC.
 
@@ -31,16 +31,16 @@ The code will look like the following:
   }
 }
 ```
-###Using the Code
+### Using the Code
 
 To build and run the code provided you must have the following Operating Systems and software
 
-Operating Systems
+**Operating Systems**:
 
 - Windows 2012 or Windows 2012 R2
 - Windows 8.1 or Windows 10
 
-Software
+**Software**:
 
 - Windows Management Framework V4
 - Windows Management Framework V5
