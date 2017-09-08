@@ -10,7 +10,7 @@ This book begins with the basics of PowerShell Desired State Configuration, cove
 By the end of the book, you will be able to deploy a real-world application end-to-end and will be familiar enough with the powerful Desired State Configuration platform to achieve continuous delivery and efficiently and easily manage and deploy data for systems.
 
 ## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter03.
 
 
 
