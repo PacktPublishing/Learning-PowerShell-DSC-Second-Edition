@@ -53,5 +53,3 @@ To build and run the code provided you must have the following Operating Systems
 
 * [Mastering Windows PowerShell 5 Administration [Video]](https://www.packtpub.com/networking-and-servers/mastering-windows-powershell-5-administration-video?utm_source=github&utm_medium=repository&utm_campaign=9781786467980)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
